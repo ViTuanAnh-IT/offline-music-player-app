@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nhạc của tôi</title>
+<meta name="theme-color" content="#0f1115">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Nhạc">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <h1>Nhạc của tôi</h1>
+    <div class="actions">
+      <button class="icon" id="btnSync" aria-label="Đồng bộ" data-icon="sync"></button>
+      <button class="icon" id="btnUpload" aria-label="Thêm nhạc" data-icon="plus"></button>
+      <button class="icon" id="btnAccount" aria-label="Tài khoản" data-icon="user"></button>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="on" data-tab="all">Tất cả nhạc</button>
+    <button data-tab="pl">Playlist</button>
+  </nav>
+
+  <div class="syncbar" id="syncbar" hidden><div id="synctext"></div><div class="bar"><i id="syncfill"></i></div></div>
+
+  <main id="view"></main>
+</div>
+
+<footer class="player">
+  <div class="player-in">
+    <div class="now empty" id="now">Chưa chọn bài nào</div>
+    <div class="seek">
+      <span id="tCur">0:00</span>
+      <input type="range" id="seek" min="0" max="0" step="0.1" value="0" aria-label="Tua">
+      <span id="tDur">0:00</span>
+    </div>
+    <div class="ctrl">
+      <button class="icon toggle" id="btnShuffle" aria-label="Phát ngẫu nhiên" data-icon="shuffle"></button>
+      <button class="icon" id="btnPrev" aria-label="Bài trước" data-icon="prev"></button>
+      <button class="icon big" id="btnPlay" aria-label="Phát / Tạm dừng" data-icon="play"></button>
+      <button class="icon" id="btnNext" aria-label="Bài tiếp theo" data-icon="next"></button>
+    </div>
+  </div>
+</footer>
+
+<input type="file" id="file" multiple accept="audio/mpeg,.mp3,.m4a,.aac,.wav" hidden>
+<audio id="audio" playsinline preload="auto"></audio>
+<div id="modal" hidden></div>
+<div id="toast" role="status"></div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
