@@ -62,7 +62,7 @@ App cần địa chỉ **https** để iPhone cài được và chạy offline. 
 1. Vào **dash.cloudflare.com** và đăng ký tài khoản miễn phí.
 2. Menu trái chọn **Workers & Pages** → **Create application**.
 3. Chọn **Get started** ở mục tải file trực tiếp (**Drag and drop your files**; nếu thấy tên **Pages** → **Direct Upload** thì chọn nó).
-4. Đặt tên dự án, ví dụ `nhac-cua-toi-ten-ban` (tên này thành địa chỉ web của bạn, nên nên đặt khó đoán một chút).
+4. Đặt tên dự án, ví dụ `nhac-cua-toi-ten-ban` (tên này thành địa chỉ web của bạn, nên đặt khó đoán một chút).
 5. Kéo cả thư mục **`web`** (đã sửa `config.js` ở bước 3) vào khung tải lên, rồi bấm **Deploy site**.
    - Chỉ kéo thư mục `web`. Hai file `setup.sql` và `HUONG-DAN.md` giữ lại trong máy bạn, không đưa lên mạng.
    - Quan trọng: `index.html` phải nằm ở **ngoài cùng** của danh sách file, không bị lồng trong một thư mục con. Nếu bị lồng, hãy mở thư mục `web`, chọn hết các file bên trong rồi kéo thả các file đó.
@@ -79,7 +79,7 @@ App cần địa chỉ **https** để iPhone cài được và chạy offline. 
 
 Gói Supabase miễn phí chứa khoảng **1 GB** nhạc và mỗi file tối đa **50 MB**.
 
-## Bước 7. Cài lên iPhone XR (iOS 18)
+## Bước 7. Cài lên điện thoại (Hướng dẫn này là cho Iphone)
 
 1. Mở **Safari** (bắt buộc dùng Safari, không dùng Chrome) và vào địa chỉ `https://ten-du-an.pages.dev`.
 2. **Cài ra màn hình chính trước, chưa cần đăng nhập:** bấm nút **Chia sẻ** (hình ô vuông có mũi tên lên) → kéo xuống chọn **Thêm vào Màn hình chính** → **Thêm**. (iPhone tách riêng dữ liệu của Safari và của app đã cài, nên làm bước này trước để nhạc không phải tải hai lần.)
@@ -119,4 +119,4 @@ Gói Supabase miễn phí chứa khoảng **1 GB** nhạc và mỗi file tối �
 | iPhone không thấy bài mới | Có mạng không? Bấm **↻**. Nếu vẫn không, mở cửa sổ tài khoản (biểu tượng người) xem còn đăng nhập không. |
 | Nhạc không phát khi tắt màn hình | Chắc chắn đang mở app từ **biểu tượng màn hình chính** (không phải Safari). Thử tăng âm lượng, và bấm phát lại một lần từ màn hình khóa. |
 
-Có gì không chạy đúng, bạn chụp màn hình gửi mình là xử lý được.
+
