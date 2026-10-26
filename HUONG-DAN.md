@@ -21,7 +21,7 @@ Cách app hoạt động: bạn upload mp3 trên máy tính → nhạc nằm tro
 ## Bước 2. Tạo kho nhạc (chạy đoạn SQL có sẵn)
 
 1. Ở menu bên trái, chọn **SQL Editor** → **New query**.
-2. Mở file **`setup.sql`** (nằm cạnh file hướng dẫn này) bằng Notepad, chọn hết, sao chép.
+2. Mở file **`setup.sql`** bằng Notepad, bôi đen hết xong sao chép.
 3. Dán vào ô SQL Editor rồi bấm **Run**.
 4. Thấy thông báo **Success** là xong. (Nếu báo lỗi, chụp màn hình gửi mình.)
 
