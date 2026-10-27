@@ -1,5 +1,5 @@
 # Hướng dẫn cài "Nhạc của tôi" (từng bước)
-tải file nhac-cua-toi.zip về máy
+
 Làm theo thứ tự trên **máy tính**. Tổng cộng khoảng 20–30 phút, chỉ làm một lần và chỉ cần tải file nhac-cua-toi.zip về máy.
 
 Cách app hoạt động: bạn upload mp3 trên máy tính → nhạc nằm trong kho riêng trên Supabase (có mật khẩu) → iPhone tự tải nhạc về máy → nghe offline, tắt màn hình vẫn phát.
